@@ -1,0 +1,19 @@
+{
+  "name": "react-native-geolocation-android",
+  "version": "0.1.0",
+  "description": "Geolocation module for react native android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "android",
+    "location",
+    "gps",
+    "geolocation"
+  ],
+  "author": "lxsameer",
+  "license": "GPLv2"
+}
