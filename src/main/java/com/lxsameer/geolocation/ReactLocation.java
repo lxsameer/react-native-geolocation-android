@@ -1,4 +1,4 @@
-package com.awesomeproject.location;
+package com.lxsameer.geolocation;
 
 import java.util.Collections;
 import java.util.Arrays;

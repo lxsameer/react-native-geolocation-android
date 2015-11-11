@@ -1,4 +1,4 @@
-package com.awesomeproject.location;
+package com.lxsameer.geolocation;
 
 import android.content.Context;
 import android.location.Location;
@@ -20,16 +20,16 @@ public class LocationModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "AndroidLocation";
+        return "geoLocation";
     }
 
 
     @ReactMethod
-    public void getLocation(Integer interval, Float distance) {
+    public void get(Integer interval, Float distance) {
 
         MyLocationListener mLocationListener = new MyLocationListener(this.getReactApplicationContext());
 
-        LocationManager mLocationManager = (LocationManager) this.getReactApplicationContext().getSystemService(this.getReactApplicationContext().LOCATION_SERVICE);
+        LocationManager mLocationManager = this.locationManager();
 
         mLocationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
                                                 interval,
@@ -38,4 +38,7 @@ public class LocationModule extends ReactContextBaseJavaModule {
     }
 
 
+    private LocationManager locationManager() {
+        return (LocationManager) this.getReactApplicationContext().getSystemService(this.getReactApplicationContext().LOCATION_SERVICE);
+    }
 }
