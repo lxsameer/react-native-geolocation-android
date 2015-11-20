@@ -31,7 +31,7 @@ dependencies {
 * Register Module (in MainActivity.java)
 
 ```java
-import com.lxsameer.geolocation.ReacLocation;  // <--- import
+import com.lxsameer.geolocation.ReactLocation;  // <--- import
 
 public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
   ......
