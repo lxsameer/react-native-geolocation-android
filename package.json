@@ -1,6 +1,6 @@
 {
   "name": "react-native-geolocation-android",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Geolocation module for react native android",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,5 @@
   "author": "Sameer Rahmani <lxsameer@gnu.org>",
   "repository": "https://github.com/lxsameer/react-native-geolocation-android",
   "bugs": "https://github.com/lxsameer/react-native-geolocation-android/issues",
-  "license": "GPLv2"
+  "license": "LGPLv2.1"
 }
