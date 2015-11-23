@@ -63,4 +63,4 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
 
 
 ## License
-GPLv2
+LGPLv2.1
